@@ -72,9 +72,9 @@
         <project.build.outputTimestamp>2022-03-22T23:08:15Z</project.build.outputTimestamp>
         <jacoco.skip>true</jacoco.skip>
         <!--suppress CheckTagEmptyBody -->
-        <surefire.argLine></surefire.argLine>
+        <surefire.argLine/>
         <!--suppress CheckTagEmptyBody -->
-        <failsafe.argLine></failsafe.argLine>
+        <failsafe.argLine/>
         <nexus.deploy.skip>false</nexus.deploy.skip>
 
         <!-- non-dependency-based properties: -->
@@ -83,7 +83,7 @@
         <!-- Compile 3rd party dependencies: -->
         <!-- Don't change this version without also changing the shiro-aspect and shiro-features
              modules' OSGi metadata: -->
-        <aspectj.version>1.9.7.M3</aspectj.version>
+        <aspectj.version>1.9.19</aspectj.version>
         <commons.beanutils.version>1.9.4</commons.beanutils.version>
         <commons.cli.version>1.4</commons.cli.version>
         <commons.codec.version>1.14</commons.codec.version>
